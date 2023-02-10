@@ -119,7 +119,7 @@ const Home = () => {
             {isLoadingDash && <Skeleton count={10} />}
             <Link to="/cipp/logs">
               <CButton className="m-1" color="primary">
-                <FontAwesomeIcon icon={faBook} className="pe-1" /> Jump to log
+                <FontAwesomeIcon icon={faBook} className="pe-1" /> Jumpp to logg
               </CButton>
             </Link>
           </CippContentCard>
